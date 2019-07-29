@@ -8,6 +8,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media @tablet-portrait {
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+
+h1 {
+  color: @nav-font-color;
 }
 
 nav {
@@ -15,10 +25,10 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-top: 0.6rem;
-}
 
-h1 {
-  color: @nav-font-color;
+  @media @tablet-portrait {
+    width: 40%;
+  }
 }
 
 a {

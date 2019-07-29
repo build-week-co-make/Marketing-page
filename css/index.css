@@ -384,6 +384,11 @@ body {
   font-family: "SF Display", sans-serif;
   color: #4c495b;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 h1,
 h2,
 h3,
@@ -445,14 +450,26 @@ video {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 500px) {
+  .nav {
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+h1 {
+  color: #ffffff;
+}
 nav {
   width: 50%;
   display: flex;
   justify-content: space-between;
   margin-top: 0.6rem;
 }
-h1 {
-  color: #ffffff;
+@media (min-width: 500px) {
+  nav {
+    width: 40%;
+  }
 }
 a {
   color: #ffffff;
@@ -469,6 +486,7 @@ a:hover {
 }
 .image {
   margin-top: 10rem;
+  max-width: 320px;
 }
 .team {
   background-color: #f4e7d7;
@@ -484,6 +502,24 @@ a:hover {
 .profile {
   padding: 4%;
   border-bottom: 1px dashed #b2901b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 500px) {
+  .profile {
+    flex-direction: row;
+    align-items: space-between;
+  }
+}
+.profile img {
+  max-width: 200px;
+  padding-bottom: 4%;
+}
+@media (min-width: 500px) {
+  .profile img {
+    padding-right: 4%;
+  }
 }
 ul {
   list-style: disc outside;

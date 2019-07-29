@@ -411,7 +411,7 @@ h3 {
   padding-bottom: 2rem;
 }
 a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   padding: 0.2rem;
 }
@@ -449,40 +449,40 @@ video {
   justify-content: center;
   align-items: center;
 }
-.nav {
-  padding-top: 1.5rem;
+.nav-color .nav {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media (min-width: 500px) {
-  .nav {
+  .nav-color .nav {
     flex-direction: row;
     padding: 0;
+    align-items: center;
     justify-content: space-around;
   }
 }
 @media (min-width: 1000px) {
-  .nav {
+  .nav-color .nav {
     width: 1000px;
   }
 }
-h1 {
+.nav-color .nav h1 {
   color: #ffffff;
 }
-nav {
+.nav-color .nav nav {
   width: 50%;
   display: flex;
   justify-content: space-between;
   margin-top: 0.6rem;
 }
 @media (min-width: 500px) {
-  nav {
+  .nav-color .nav nav {
     width: 40%;
   }
 }
-a {
+.nav-color .nav nav a {
   color: #ffffff;
   width: auto;
   text-align: center;
@@ -490,25 +490,30 @@ a {
   white-space: nowrap;
   transition: 0.2s ease-in-out;
 }
-a:visited {
+.nav-color .nav nav a:visited {
   color: #ffffff;
 }
-a:hover {
+.nav-color .nav nav a:hover {
   color: #4c495b;
 }
 .image {
   margin-top: 10rem;
   max-width: 320px;
 }
-.team {
-  background-color: #f4e7d7;
-  padding: 2rem 4%;
-}
 .content h2 {
   background-color: #f4e7d7;
   padding: 2rem 4%;
 }
 .content p {
+  padding: 2rem 4%;
+}
+.content ul {
+  list-style: disc outside;
+  padding: 2rem;
+  margin-left: 6%;
+}
+.team {
+  background-color: #f4e7d7;
   padding: 2rem 4%;
 }
 .profile {
@@ -533,13 +538,8 @@ a:hover {
     padding-right: 2rem;
   }
 }
-ul {
-  list-style: disc outside;
-  padding: 2rem;
-  margin-left: 6%;
-}
-.fas,
-.fab {
+.profile .fas,
+.profile .fab {
   color: #4c495b;
   padding: 3%;
 }
@@ -554,8 +554,9 @@ ul {
   text-transform: uppercase;
   border-radius: 1.5rem;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 .login button:hover {
-  color: #d9e1ff;
+  color: #ffffff;
   background-color: #96a7e6;
 }

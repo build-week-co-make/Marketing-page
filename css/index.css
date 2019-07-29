@@ -400,6 +400,7 @@ h5 {
 h1 {
   font-size: 3.4rem;
   font-weight: 800;
+  color: #ffffff;
 }
 h2 {
   font-size: 2.4rem;
@@ -468,8 +469,8 @@ video {
     width: 1000px;
   }
 }
-.nav-color .nav h1 {
-  color: #ffffff;
+.nav-color .nav .logo {
+  display: flex;
 }
 .nav-color .nav nav {
   width: 50%;

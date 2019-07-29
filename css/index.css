@@ -381,7 +381,7 @@ html {
 }
 html,
 body {
-  font-family: "SF Text", sans-serif;
+  font-family: "SF Display", sans-serif;
   color: #4c495b;
 }
 h1,
@@ -394,11 +394,11 @@ h5 {
 }
 h1 {
   font-size: 3.4rem;
-  font-weight: bolder;
+  font-weight: 800;
 }
 h2 {
   font-size: 2.4rem;
-  font-weight: bolder;
+  font-weight: 500;
   padding-bottom: 2%;
 }
 h3 {
@@ -413,6 +413,7 @@ a {
 p {
   font-size: 1.6rem;
   line-height: 1.5;
+  font-weight: 400;
   max-width: 65ch;
 }
 li {
@@ -460,31 +461,38 @@ a {
   overflow: hidden;
   white-space: nowrap;
 }
-a:hover {
-  color: #4c495b;
-}
 a:visited {
   color: #ffffff;
 }
+a:hover {
+  color: #4c495b;
+}
 .main,
 .profiles {
-  margin-top: 8.3rem;
+  margin-top: 6.1rem;
 }
 .team {
   background-color: #f4e7d7;
   padding: 4%;
 }
-.content,
+.content h2 {
+  background-color: #f4e7d7;
+  padding: 4%;
+}
+.content p {
+  padding: 4%;
+}
 .profile {
   padding: 4%;
   border-bottom: 1px dashed #b2901b;
+}
+ul {
+  list-style: disc outside;
+  padding: 4%;
+  margin-left: 6%;
 }
 .fas,
 .fab {
   color: #4c495b;
   padding: 3%;
-}
-ul {
-  list-style: disc outside;
-  margin-left: 7%;
 }

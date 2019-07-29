@@ -488,6 +488,7 @@ a {
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
+  transition: 0.2s ease-in-out;
 }
 a:visited {
   color: #ffffff;
@@ -541,4 +542,20 @@ ul {
 .fab {
   color: #4c495b;
   padding: 3%;
+}
+.login button {
+  background-color: #d9e1ff;
+  border: 3px solid #96a7e6;
+  padding: 1.5rem;
+  color: #96a7e6;
+  font-family: "SF Display", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.login button:hover {
+  color: #d9e1ff;
+  background-color: #96a7e6;
 }

@@ -404,11 +404,11 @@ h1 {
 h2 {
   font-size: 2.4rem;
   font-weight: 500;
-  padding-bottom: 2%;
+  padding-bottom: 2rem;
 }
 h3 {
   font-size: 1.8rem;
-  padding-bottom: 2%;
+  padding-bottom: 2rem;
 }
 a {
   font-size: 1.6rem;
@@ -431,7 +431,7 @@ strong {
 }
 section,
 footer {
-  padding: 2% 0;
+  padding: 2rem 0;
 }
 img,
 embed,
@@ -439,13 +439,19 @@ object,
 video {
   max-width: 100%;
 }
-.nav {
+.nav-color {
   position: fixed;
-  padding-top: 1.5rem;
   top: 0;
   width: 100%;
   height: 9rem;
   background-color: #96a7e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  padding-top: 1.5rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -455,6 +461,11 @@ video {
     flex-direction: row;
     padding: 0;
     justify-content: space-around;
+  }
+}
+@media (min-width: 1000px) {
+  .nav {
+    width: 1000px;
   }
 }
 h1 {
@@ -490,17 +501,17 @@ a:hover {
 }
 .team {
   background-color: #f4e7d7;
-  padding: 4%;
+  padding: 2rem 4%;
 }
 .content h2 {
   background-color: #f4e7d7;
-  padding: 4%;
+  padding: 2rem 4%;
 }
 .content p {
-  padding: 4%;
+  padding: 2rem 4%;
 }
 .profile {
-  padding: 4%;
+  padding: 2rem 4%;
   border-bottom: 1px dashed #b2901b;
   display: flex;
   flex-direction: column;
@@ -514,16 +525,16 @@ a:hover {
 }
 .profile img {
   max-width: 200px;
-  padding-bottom: 4%;
+  padding-bottom: 2rem;
 }
 @media (min-width: 500px) {
   .profile img {
-    padding-right: 4%;
+    padding-right: 2rem;
   }
 }
 ul {
   list-style: disc outside;
-  padding: 4%;
+  padding: 2rem;
   margin-left: 6%;
 }
 .fas,

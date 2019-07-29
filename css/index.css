@@ -467,9 +467,8 @@ a:visited {
 a:hover {
   color: #4c495b;
 }
-.main,
-.profiles {
-  margin-top: 6.1rem;
+.image {
+  margin-top: 10rem;
 }
 .team {
   background-color: #f4e7d7;

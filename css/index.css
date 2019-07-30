@@ -474,6 +474,8 @@ video {
 }
 .nav-color .nav .logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-color .nav nav {
   width: 50%;

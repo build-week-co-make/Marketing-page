@@ -742,6 +742,9 @@ video {
   flex-direction: column;
   align-items: center;
 }
+.profile:last-child {
+  border-bottom: none;
+}
 @media (min-width: 500px) {
   .profile {
     flex-direction: row;
@@ -768,7 +771,7 @@ video {
 .login button {
   background-color: #96a7e6;
   border: none;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   color: #ffffff;
   font-family: "SF Display", sans-serif;
   font-size: 1.8rem;
@@ -778,7 +781,18 @@ video {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+@media (min-width: 500px) {
+  .login button {
+    font-size: 2.4rem;
+  }
+}
 .login button:hover {
   color: #96a7e6;
   background-color: #d9e1ff;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f4e7d7;
+  font-size: 1.6rem;
 }

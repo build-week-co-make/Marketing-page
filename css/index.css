@@ -487,9 +487,10 @@ video {
   color: #ffffff;
   width: auto;
   text-align: center;
+  text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
-  transition: 0.2s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .nav-color .nav nav a:visited {
   color: #ffffff;
@@ -546,7 +547,7 @@ video {
 }
 .login button {
   background-color: #d9e1ff;
-  border: 3px solid #96a7e6;
+  border: none;
   padding: 1.5rem;
   color: #96a7e6;
   font-family: "SF Display", sans-serif;
@@ -555,7 +556,7 @@ video {
   text-transform: uppercase;
   border-radius: 1.5rem;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .login button:hover {
   color: #ffffff;

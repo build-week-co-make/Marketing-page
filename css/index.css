@@ -490,7 +490,7 @@ video {
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .nav-color .nav nav a:visited {
   color: #ffffff;
@@ -556,7 +556,7 @@ video {
   text-transform: uppercase;
   border-radius: 1.5rem;
   cursor: pointer;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .login button:hover {
   color: #ffffff;

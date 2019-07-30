@@ -686,7 +686,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 13rem;
-  color: #a1bbd0;
+  color: #4c495b;
   font-size: 5rem;
   z-index: -1;
 }
@@ -695,7 +695,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 23rem;
-  color: #9eabbe;
+  color: #a1bbd0;
   font-size: 5rem;
   z-index: -1;
 }
@@ -704,9 +704,9 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 33rem;
-  color: #4c495b;
+  color: #9eabbe;
   font-size: 5rem;
-  z-index: -1;
+  z-index: 1;
 }
 .wrapper2 .fade4 {
   animation-name: fadetext4;

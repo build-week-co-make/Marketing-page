@@ -442,6 +442,7 @@ video {
 }
 .nav-color {
   position: fixed;
+  z-index: 9999;
   top: 0;
   width: 100%;
   height: 9rem;
@@ -499,9 +500,128 @@ video {
 .nav-color .nav nav a:hover {
   color: #4c495b;
 }
-.image {
+.art {
   margin-top: 10rem;
-  max-width: 320px;
+  position: relative;
+  width: 90%;
+}
+.art .text1 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  top: 5rem;
+  left: 2%;
+  color: #a1bbd0;
+  font-size: 2.4rem;
+}
+@media (max-width: 350px) {
+  .art .text1 {
+    font-size: 2rem;
+  }
+}
+.art .fade1 {
+  animation-name: fadetext1;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fadetext1 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.art .text2 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  top: 12rem;
+  right: -2%;
+  color: #b2901b;
+  font-size: 2.6rem;
+}
+@media (max-width: 350px) {
+  .art .text2 {
+    font-size: 2.2rem;
+  }
+}
+.art .fade2 {
+  animation-name: fadetext2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fadetext2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.art .text3 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  bottom: 7%;
+  left: 22%;
+  color: #ffffff;
+  font-size: 6rem;
+  font-weight: 800;
+}
+@media (max-width: 350px) {
+  .art .text3 {
+    font-size: 5rem;
+  }
+}
+.art .fade3 {
+  animation-name: fadetext3;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fadetext3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.art .image {
+  max-width: 100%;
 }
 .content h2 {
   background-color: #f4e7d7;
@@ -550,10 +670,10 @@ video {
   padding: 3%;
 }
 .login button {
-  background-color: #d9e1ff;
+  background-color: #96a7e6;
   border: none;
-  padding: 1.5rem;
-  color: #96a7e6;
+  padding: 3rem;
+  color: #ffffff;
   font-family: "SF Display", sans-serif;
   font-size: 2.2rem;
   font-weight: bold;
@@ -563,6 +683,6 @@ video {
   transition: 0.3s ease-in-out;
 }
 .login button:hover {
-  color: #ffffff;
-  background-color: #96a7e6;
+  color: #96a7e6;
+  background-color: #d9e1ff;
 }

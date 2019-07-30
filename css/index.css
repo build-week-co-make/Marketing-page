@@ -462,14 +462,15 @@ video {
 }
 @media (min-width: 500px) {
   .nav-color .nav {
+    width: 90%;
     flex-direction: row;
     padding: 0;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1000px) {
   .nav-color .nav {
-    width: 1000px;
+    width: 900px;
   }
 }
 .nav-color .nav .logo {
@@ -485,7 +486,7 @@ video {
 }
 @media (min-width: 500px) {
   .nav-color .nav nav {
-    width: 40%;
+    width: 200px;
   }
 }
 .nav-color .nav nav a {

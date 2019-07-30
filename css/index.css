@@ -386,8 +386,9 @@ body {
 }
 body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 h1,
 h2,
@@ -455,8 +456,9 @@ video {
 .nav-color .nav {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 @media (min-width: 500px) {
   .nav-color .nav {
@@ -540,29 +542,6 @@ video {
     left: 0%;
   }
 }
-.art .fade1 {
-  animation-name: fadetext1;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes fadetext1 {
-  0% {
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  20% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .art .text2 {
   position: absolute;
   font-family: "SF Display", sans-serif;
@@ -596,32 +575,6 @@ video {
     right: 0%;
   }
 }
-.art .fade2 {
-  animation-name: fadetext2;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-@keyframes fadetext2 {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  45% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .art .text3 {
   position: absolute;
   font-family: "SF Display", sans-serif;
@@ -643,11 +596,60 @@ video {
     font-size: 7rem;
   }
 }
+.art .fade1 {
+  animation-name: fadetext1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.art .fade2 {
+  animation-name: fadetext2;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 .art .fade3 {
   animation-name: fadetext3;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+@keyframes fadetext1 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadetext2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes fadetext3 {
   0% {
@@ -791,9 +793,9 @@ video {
 }
 .wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 @media (min-width: 1000px) {
   .wrapper {
@@ -806,8 +808,9 @@ video {
   background-color: #d9e1ff;
   border: 2px solid #96a7e6;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 2rem 4%;
   margin-top: 2rem;
 }
@@ -868,8 +871,9 @@ video {
   padding: 2rem 4%;
   border-bottom: 1px dashed #b2901b;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .profile:last-child {
   border-bottom: none;
@@ -897,14 +901,19 @@ video {
   color: #4c495b;
   padding: 3%;
 }
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .login button {
   background-color: #96a7e6;
   border: none;
+  width: 80%;
   padding: 1.5rem 3rem;
   color: #ffffff;
   font-family: "SF Display", sans-serif;
   font-size: 1.8rem;
-  font-weight: bold;
   text-transform: uppercase;
   border-radius: 1.5rem;
   cursor: pointer;

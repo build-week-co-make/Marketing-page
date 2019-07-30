@@ -533,12 +533,13 @@ video {
   }
 }
 .profile img {
-  max-width: 200px;
+  max-width: 80%;
   border-radius: 2rem;
   margin-bottom: 2rem;
 }
 @media (min-width: 500px) {
   .profile img {
+    max-width: 200px;
     margin-bottom: 0;
     margin-right: 2rem;
   }

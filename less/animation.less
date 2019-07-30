@@ -2,6 +2,9 @@
   margin-top: 10rem;
   position: relative;
   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .text1 {
     .float-text();
@@ -12,6 +15,22 @@
 
     @media @mobile-small {
       font-size: 2rem;
+    }
+
+    @media @tablet-portrait {
+      font-size: 3rem;
+      left: -4%;
+      top: 6rem;
+    }
+
+    @media @tablet-landscape {
+      font-size: 3.6rem;
+      left: -30%;
+      top: 6rem;
+    }
+
+    @media @desktop {
+      left: 0%;
     }
   }
 
@@ -47,6 +66,22 @@
     @media @mobile-small {
       font-size: 2.2rem;
     }
+
+    @media @tablet-portrait {
+      top: 10rem;
+      right: -8%;
+      font-size: 3.2rem;
+    }
+
+    @media @tablet-landscape {
+      top: 10rem;
+      right: -30%;
+      font-size: 4rem;
+    }
+
+    @media @desktop {
+      right: 0%;
+    }
   }
 
   .fade2 {
@@ -77,13 +112,18 @@
   .text3 {
     .float-text();
     bottom: 7%;
-    left: 22%;
+    text-align: center;
     color: @text4;
     font-size: 6rem;
     font-weight: 800;
 
     @media @mobile-small {
       font-size: 5rem;
+    }
+
+    @media @tablet-portrait {
+      bottom: 3rem;
+      font-size: 7rem;
     }
   }
 
@@ -111,5 +151,9 @@
 
   .image {
     max-width: 100%;
+
+    @media @tablet-portrait {
+      max-width: 372px;
+    }
   }
 }

@@ -504,6 +504,9 @@ video {
   margin-top: 10rem;
   position: relative;
   width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .art .text1 {
   position: absolute;
@@ -517,6 +520,25 @@ video {
 @media (max-width: 350px) {
   .art .text1 {
     font-size: 2rem;
+  }
+}
+@media (min-width: 500px) {
+  .art .text1 {
+    font-size: 3rem;
+    left: -4%;
+    top: 6rem;
+  }
+}
+@media (min-width: 800px) {
+  .art .text1 {
+    font-size: 3.6rem;
+    left: -30%;
+    top: 6rem;
+  }
+}
+@media (min-width: 1000px) {
+  .art .text1 {
+    left: 0%;
   }
 }
 .art .fade1 {
@@ -556,6 +578,25 @@ video {
     font-size: 2.2rem;
   }
 }
+@media (min-width: 500px) {
+  .art .text2 {
+    top: 10rem;
+    right: -8%;
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 800px) {
+  .art .text2 {
+    top: 10rem;
+    right: -30%;
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1000px) {
+  .art .text2 {
+    right: 0%;
+  }
+}
 .art .fade2 {
   animation-name: fadetext2;
   animation-duration: 7s;
@@ -587,7 +628,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   bottom: 7%;
-  left: 22%;
+  text-align: center;
   color: #ffffff;
   font-size: 6rem;
   font-weight: 800;
@@ -595,6 +636,12 @@ video {
 @media (max-width: 350px) {
   .art .text3 {
     font-size: 5rem;
+  }
+}
+@media (min-width: 500px) {
+  .art .text3 {
+    bottom: 3rem;
+    font-size: 7rem;
   }
 }
 .art .fade3 {
@@ -622,6 +669,55 @@ video {
 }
 .art .image {
   max-width: 100%;
+}
+@media (min-width: 500px) {
+  .art .image {
+    max-width: 372px;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1000px) {
+  .wrapper {
+    flex-direction: row;
+    width: 950px;
+  }
+}
+.wrapper .questions {
+  width: 100%;
+  background-color: #d9e1ff;
+  border: 2px solid #96a7e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4%;
+  margin-top: 2rem;
+}
+@media (min-width: 1000px) {
+  .wrapper .questions {
+    width: 60%;
+    margin-left: 2rem;
+  }
+}
+.wrapper .questions h2 {
+  background-color: #d9e1ff;
+  color: #4c495b;
+  padding-top: 0;
+}
+.wrapper .questions ul {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+.wrapper .questions ul li {
+  font-size: 2rem;
+}
+.wrapper .questions p {
+  font-size: 2rem;
+  padding: 0;
 }
 .content h2 {
   background-color: #f4e7d7;
@@ -653,7 +749,7 @@ video {
   }
 }
 .profile img {
-  max-width: 80%;
+  max-width: 70%;
   border-radius: 2rem;
   margin-bottom: 2rem;
 }
@@ -672,10 +768,10 @@ video {
 .login button {
   background-color: #96a7e6;
   border: none;
-  padding: 3rem;
+  padding: 1.5rem;
   color: #ffffff;
   font-family: "SF Display", sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 1.5rem;

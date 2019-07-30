@@ -712,19 +712,19 @@ video {
 }
 .wrapper2 .fade4 {
   animation-name: fadetext4;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 .wrapper2 .fade5 {
   animation-name: fadetext5;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 .wrapper2 .fade6 {
   animation-name: fadetext6;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

@@ -462,7 +462,6 @@ video {
   .nav-color .nav {
     flex-direction: row;
     padding: 0;
-    align-items: center;
     justify-content: space-around;
   }
 }
@@ -543,7 +542,7 @@ video {
 }
 .art .fade1 {
   animation-name: fadetext1;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -599,7 +598,7 @@ video {
 }
 .art .fade2 {
   animation-name: fadetext2;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -646,7 +645,7 @@ video {
 }
 .art .fade3 {
   animation-name: fadetext3;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -675,10 +674,125 @@ video {
     max-width: 372px;
   }
 }
+.wrapper2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper2 .text4 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  top: 13rem;
+  color: #a1bbd0;
+  font-size: 5rem;
+  z-index: -1;
+}
+.wrapper2 .text5 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  top: 23rem;
+  color: #9eabbe;
+  font-size: 5rem;
+  z-index: -1;
+}
+.wrapper2 .text6 {
+  position: absolute;
+  font-family: "SF Display", sans-serif;
+  font-weight: bold;
+  top: 33rem;
+  color: #4c495b;
+  font-size: 5rem;
+  z-index: -1;
+}
+.wrapper2 .fade4 {
+  animation-name: fadetext4;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wrapper2 .fade5 {
+  animation-name: fadetext5;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wrapper2 .fade6 {
+  animation-name: fadetext6;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fadetext4 {
+  0% {
+    opacity: 0;
+    right: 0%;
+  }
+  6% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadetext5 {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+    right: 0%;
+  }
+  30% {
+    opacity: 1;
+  }
+  36% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadetext6 {
+  0% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+    right: 0%;
+  }
+  54% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 @media (min-width: 1000px) {
@@ -719,17 +833,32 @@ video {
   font-size: 2rem;
   padding: 0;
 }
+.art2 {
+  margin-top: 5rem;
+}
+.art2 .image {
+  max-width: 100%;
+}
+@media (min-width: 500px) {
+  .art2 .image {
+    max-width: 372px;
+  }
+}
 .content h2 {
   background-color: #f4e7d7;
   padding: 2rem 4%;
 }
 .content p {
   padding: 2rem 4%;
+  font-size: 2rem;
 }
 .content ul {
   list-style: disc outside;
   padding: 2rem;
   margin-left: 6%;
+}
+.content li {
+  font-size: 2rem;
 }
 .team {
   background-color: #f4e7d7;

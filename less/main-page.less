@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   @media @desktop {
@@ -46,6 +46,18 @@
   }
 }
 
+.art2 {
+  margin-top: 5rem;
+
+  .image {
+    max-width: 100%;
+
+    @media @tablet-portrait {
+      max-width: 372px;
+    }
+  }
+}
+
 .content {
   h2 {
     background-color: @bkgd1;
@@ -54,12 +66,17 @@
 
   p {
     padding: 2rem 4%;
+    font-size: 2rem;
   }
 
   ul {
     list-style: disc outside;
     padding: 2rem;
     margin-left: 6%;
+  }
+
+  li {
+    font-size: 2rem;
   }
 }
 

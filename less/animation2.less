@@ -1,0 +1,109 @@
+.wrapper2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text4 {
+    .float-text();
+    top: 13rem;
+    color: @text3;
+    font-size: 5rem;
+    z-index: -1;
+  }
+
+  .text5 {
+    .float-text();
+    top: 23rem;
+    color: @text2;
+    font-size: 5rem;
+    z-index: -1;
+  }
+
+  .text6 {
+    .float-text();
+    top: 33rem;
+    color: @text1;
+    font-size: 5rem;
+    z-index: -1;
+  }
+
+  .fade4 {
+    .fade(fadetext4, @anim2-time);
+  }
+
+  .fade5 {
+    .fade(fadetext5, @anim2-time);
+  }
+
+  .fade6 {
+    .fade(fadetext6, @anim2-time);
+  }
+
+  @keyframes fadetext4 {
+    0% {
+      opacity: 0;
+      right: 0%;
+    }
+    6% {
+      opacity: 1;
+    }
+    12% {
+      opacity: 1;
+    }
+    18% {
+      opacity: 0;
+      right: 90%;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadetext5 {
+    0% {
+      opacity: 0;
+    }
+    24% {
+      opacity: 0;
+      right: 0%;
+    }
+    30% {
+      opacity: 1;
+    }
+    36% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+      right: 90%;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadetext6 {
+    0% {
+      opacity: 0;
+    }
+    48% {
+      opacity: 0;
+      right: 0%;
+    }
+    54% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    66% {
+      opacity: 0;
+      right: 90%;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

@@ -396,7 +396,7 @@ h3,
 h4,
 h5 {
   font-family: "SF Display", sans-serif;
-  color: #b2901b;
+  color: #eb472c;
 }
 h1 {
   font-size: 3.4rem;
@@ -447,7 +447,7 @@ video {
   top: 0;
   width: 100%;
   height: 9rem;
-  background-color: #96a7e6;
+  background-color: #4e73b9;
   opacity: 0.97;
   display: flex;
   justify-content: center;
@@ -508,7 +508,7 @@ video {
   color: #ffffff;
 }
 .nav-color .nav nav a:hover {
-  color: #4c495b;
+  color: #f2c617;
 }
 .art {
   margin-top: 10rem;
@@ -524,7 +524,7 @@ video {
   font-weight: bold;
   top: 5rem;
   left: 2%;
-  color: #a1bbd0;
+  color: #4e73b9;
   font-size: 2.4rem;
 }
 @media (max-width: 350px) {
@@ -557,7 +557,7 @@ video {
   font-weight: bold;
   top: 12rem;
   right: -2%;
-  color: #b2901b;
+  color: #eb472c;
   font-size: 2.6rem;
 }
 @media (max-width: 350px) {
@@ -697,7 +697,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 13rem;
-  color: #4c495b;
+  color: #f2c617;
   font-size: 5rem;
   z-index: -1;
 }
@@ -706,7 +706,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 23rem;
-  color: #a1bbd0;
+  color: #eb472c;
   font-size: 5rem;
   z-index: -1;
 }
@@ -715,7 +715,7 @@ video {
   font-family: "SF Display", sans-serif;
   font-weight: bold;
   top: 33rem;
-  color: #9eabbe;
+  color: #4e73b9;
   font-size: 5rem;
   z-index: 1;
 }
@@ -814,8 +814,8 @@ video {
 }
 .wrapper .questions {
   width: 100%;
-  background-color: #d9e1ff;
-  border: 2px solid #96a7e6;
+  background-color: rgba(78, 115, 185, 0.3);
+  border: 2px solid #4e73b9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -830,7 +830,6 @@ video {
   }
 }
 .wrapper .questions h2 {
-  background-color: #d9e1ff;
   color: #4c495b;
   padding-top: 0;
 }
@@ -857,8 +856,8 @@ video {
   }
 }
 .content h2 {
-  background-color: #f4e7d7;
-  padding: 2rem 4%;
+  background-color: rgba(235, 71, 44, 0.2);
+  padding: 2rem 3%;
 }
 .content p {
   padding: 2rem 4%;
@@ -873,12 +872,12 @@ video {
   font-size: 2rem;
 }
 .team {
-  background-color: #f4e7d7;
-  padding: 2rem 4%;
+  background-color: rgba(235, 71, 44, 0.2);
+  padding: 2rem 3%;
 }
 .profile {
   padding: 2rem 4%;
-  border-bottom: 1px dashed #b2901b;
+  border-bottom: 1px dashed #4e73b9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -916,7 +915,7 @@ video {
   align-items: center;
 }
 .login button {
-  background-color: #96a7e6;
+  background-color: #4e73b9;
   border: none;
   width: 80%;
   padding: 1.5rem 3rem;
@@ -934,12 +933,13 @@ video {
   }
 }
 .login button:hover {
-  color: #96a7e6;
-  background-color: #d9e1ff;
+  color: #4e73b9;
+  background-color: rgba(78, 115, 185, 0.3);
 }
 footer {
   width: 100%;
   text-align: center;
-  background-color: #f4e7d7;
+  color: #eb472c;
+  background-color: rgba(235, 71, 44, 0.2);
   font-size: 1.6rem;
 }

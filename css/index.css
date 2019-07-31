@@ -488,11 +488,12 @@ video {
   width: 50%;
   display: flex;
   justify-content: space-between;
-  margin-top: 0.6rem;
+  margin-bottom: 1rem;
 }
 @media (min-width: 500px) {
   .nav-color .nav nav {
     width: 200px;
+    margin-bottom: 0;
   }
 }
 .nav-color .nav nav a {
@@ -513,7 +514,6 @@ video {
   color: #f2c617;
 }
 .art {
-  margin-top: 10rem;
   position: relative;
   width: 90%;
   display: flex;
@@ -538,13 +538,13 @@ video {
   .art .text1 {
     font-size: 3rem;
     top: 6rem;
-    left: -4%;
+    left: -8%;
   }
 }
 @media (min-width: 800px) {
   .art .text1 {
     font-size: 3.6rem;
-    left: -30%;
+    left: -2%;
   }
 }
 @media (min-width: 1000px) {
@@ -570,18 +570,18 @@ video {
   .art .text2 {
     font-size: 3.2rem;
     top: 10rem;
-    right: -8%;
+    right: -10%;
   }
 }
 @media (min-width: 800px) {
   .art .text2 {
     font-size: 4rem;
-    right: -30%;
+    right: -2%;
   }
 }
 @media (min-width: 1000px) {
   .art .text2 {
-    right: 0%;
+    right: -5%;
   }
 }
 .art .text3 {
@@ -946,11 +946,22 @@ video {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 10rem;
+}
+@media (min-width: 500px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+@media (min-width: 800px) {
+  .wrapper {
+    width: 90%;
+  }
 }
 @media (min-width: 1000px) {
   .wrapper {
     flex-direction: row;
-    width: 950px;
+    width: 970px;
   }
 }
 .wrapper .questions {
@@ -968,12 +979,13 @@ video {
 @media (min-width: 500px) {
   .wrapper .questions {
     border: 2px solid #f2c617;
+    width: auto;
   }
 }
 @media (min-width: 1000px) {
   .wrapper .questions {
     width: 60%;
-    margin-left: 2rem;
+    margin-left: 6%;
   }
 }
 .wrapper .questions h2 {

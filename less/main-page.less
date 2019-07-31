@@ -1,10 +1,19 @@
 .wrapper {
   .flexbox-center();
   flex-direction: column;
+  margin-top: 10rem;
+
+  @media @tablet-portrait {
+    width: 80%;
+  }
+
+  @media @tablet-landscape {
+    width: 90%;
+  }
 
   @media @desktop {
     flex-direction: row;
-    width: 950px;
+    width: 970px;
   }
 
   .questions {
@@ -19,11 +28,12 @@
 
     @media @tablet-portrait {
       border: 2px solid @bermuda-yellow; //@sc-blue;
+      width: auto;
     }
 
     @media @desktop {
       width: 60%;
-      margin-left: 2rem;
+      margin-left: 6%;
     }
 
     h2 {

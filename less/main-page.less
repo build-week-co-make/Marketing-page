@@ -113,9 +113,23 @@
     }
   }
 
-  .fas,
-  .fab {
-    color: @icon-color;
-    padding: 3%;
+  .contact-options {
+    .flexbox-center();
+    justify-content: space-evenly;
+    padding-top: 1rem;
+
+    @media @tablet-portrait {
+      justify-content: flex-start;
+    }
+
+    .fas,
+    .fab {
+      color: @icon-color;
+      padding: 3%;
+
+      @media @tablet-portrait {
+        margin-right: 2.4rem;
+      }
+    }
   }
 }

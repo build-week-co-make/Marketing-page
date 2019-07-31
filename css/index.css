@@ -1050,10 +1050,28 @@ video {
     margin-right: 2rem;
   }
 }
-.profile .fas,
-.profile .fab {
+.profile .contact-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+@media (min-width: 500px) {
+  .profile .contact-options {
+    justify-content: flex-start;
+  }
+}
+.profile .contact-options .fas,
+.profile .contact-options .fab {
   color: #4c495b;
   padding: 3%;
+}
+@media (min-width: 500px) {
+  .profile .contact-options .fas,
+  .profile .contact-options .fab {
+    margin-right: 2.4rem;
+  }
 }
 .login {
   display: flex;

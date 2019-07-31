@@ -1066,7 +1066,7 @@ video {
 .profile .contact-options .fas,
 .profile .contact-options .fab {
   color: #4c495b;
-  padding: 3%;
+  padding: 1rem;
 }
 @media (min-width: 500px) {
   .profile .contact-options .fas,

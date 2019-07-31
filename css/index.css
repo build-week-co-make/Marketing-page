@@ -945,5 +945,6 @@ footer {
   text-align: center;
   color: #eb472c;
   background-color: rgba(242, 198, 23, 0.2);
+  border-top: 1px solid #f2c617;
   font-size: 1.6rem;
 }

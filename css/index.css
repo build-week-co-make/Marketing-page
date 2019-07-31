@@ -501,6 +501,8 @@ video {
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .nav-color .nav nav a:visited {
@@ -603,22 +605,51 @@ video {
   }
 }
 .art .fade1 {
+  -webkit-animation-name: fadetext1;
   animation-name: fadetext1;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 .art .fade2 {
+  -webkit-animation-name: fadetext2;
   animation-name: fadetext2;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 .art .fade3 {
+  -webkit-animation-name: fadetext3;
   animation-name: fadetext3;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+@-webkit-keyframes fadetext1 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes fadetext1 {
   0% {
@@ -631,6 +662,26 @@ video {
     opacity: 1;
   }
   25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadetext2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
     opacity: 0;
   }
   100% {
@@ -652,6 +703,23 @@ video {
   }
   50% {
     opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadetext3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
   }
   100% {
     opacity: 0;
@@ -717,22 +785,53 @@ video {
   top: 33rem;
 }
 .wrapper2 .fade4 {
+  -webkit-animation-name: fadetext4;
   animation-name: fadetext4;
+  -webkit-animation-duration: 12s;
   animation-duration: 12s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 .wrapper2 .fade5 {
+  -webkit-animation-name: fadetext5;
   animation-name: fadetext5;
+  -webkit-animation-duration: 12s;
   animation-duration: 12s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 .wrapper2 .fade6 {
+  -webkit-animation-name: fadetext6;
   animation-name: fadetext6;
+  -webkit-animation-duration: 12s;
   animation-duration: 12s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+@-webkit-keyframes fadetext4 {
+  0% {
+    opacity: 0;
+    right: 0%;
+  }
+  6% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes fadetext4 {
   0% {
@@ -746,6 +845,28 @@ video {
     opacity: 1;
   }
   18% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadetext5 {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+    right: 0%;
+  }
+  30% {
+    opacity: 1;
+  }
+  36% {
+    opacity: 1;
+  }
+  42% {
     opacity: 0;
     right: 90%;
   }
@@ -768,6 +889,28 @@ video {
     opacity: 1;
   }
   42% {
+    opacity: 0;
+    right: 90%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadetext6 {
+  0% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+    right: 0%;
+  }
+  54% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  66% {
     opacity: 0;
     right: 90%;
   }
@@ -928,6 +1071,8 @@ video {
   text-transform: uppercase;
   border-radius: 1.5rem;
   cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 @media (min-width: 500px) {

@@ -815,13 +815,19 @@ video {
 .wrapper .questions {
   width: 100%;
   background-color: rgba(78, 115, 185, 0.3);
-  border: 2px solid #4e73b9;
+  border-top: 2px solid #4e73b9;
+  border-bottom: 2px solid #4e73b9;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 2rem 4%;
   margin-top: 2rem;
+}
+@media (min-width: 500px) {
+  .wrapper .questions {
+    border: 2px solid #4e73b9;
+  }
 }
 @media (min-width: 1000px) {
   .wrapper .questions {

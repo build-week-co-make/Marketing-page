@@ -10,11 +10,16 @@
   .questions {
     width: 100%;
     background-color: @bermuda-blue-alpha; //@sc-ltblue;
-    border: 2px solid @bermuda-blue; //@sc-blue;
+    border-top: 2px solid @bermuda-blue; //@sc-blue;
+    border-bottom: 2px solid @bermuda-blue; //@sc-blue;
     .flexbox-center();
     flex-direction: column;
     padding: 2rem 4%;
     margin-top: 2rem;
+
+    @media @tablet-portrait {
+      border: 2px solid @bermuda-blue; //@sc-blue;
+    }
 
     @media @desktop {
       width: 60%;

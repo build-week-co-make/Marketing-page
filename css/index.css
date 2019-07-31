@@ -473,15 +473,16 @@ video {
     width: 900px;
   }
 }
-.nav-color .nav .logo {
+.nav-color .nav .logo a {
+  text-decoration: none;
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
-.nav-color .nav .logo img {
+.nav-color .nav .logo a img {
   width: 30px;
   margin-right: -4px;
+  margin-top: 6px;
 }
 .nav-color .nav nav {
   width: 50%;

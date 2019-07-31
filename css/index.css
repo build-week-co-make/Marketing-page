@@ -475,14 +475,13 @@ video {
 }
 .nav-color .nav .logo {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 164px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
 }
 .nav-color .nav .logo img {
   width: 30px;
+  margin-right: -4px;
 }
 .nav-color .nav nav {
   width: 50%;

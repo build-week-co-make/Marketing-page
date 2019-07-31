@@ -522,10 +522,10 @@ video {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  top: 5rem;
-  left: 2%;
   color: #4e73b9;
   font-size: 2.4rem;
+  top: 5rem;
+  left: 2%;
 }
 @media (max-width: 350px) {
   .art .text1 {
@@ -535,15 +535,14 @@ video {
 @media (min-width: 500px) {
   .art .text1 {
     font-size: 3rem;
-    left: -4%;
     top: 6rem;
+    left: -4%;
   }
 }
 @media (min-width: 800px) {
   .art .text1 {
     font-size: 3.6rem;
     left: -30%;
-    top: 6rem;
   }
 }
 @media (min-width: 1000px) {
@@ -555,10 +554,10 @@ video {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  top: 12rem;
-  right: -2%;
   color: #eb472c;
   font-size: 2.6rem;
+  top: 12rem;
+  right: -2%;
 }
 @media (max-width: 350px) {
   .art .text2 {
@@ -567,16 +566,15 @@ video {
 }
 @media (min-width: 500px) {
   .art .text2 {
+    font-size: 3.2rem;
     top: 10rem;
     right: -8%;
-    font-size: 3.2rem;
   }
 }
 @media (min-width: 800px) {
   .art .text2 {
-    top: 10rem;
-    right: -30%;
     font-size: 4rem;
+    right: -30%;
   }
 }
 @media (min-width: 1000px) {
@@ -588,11 +586,11 @@ video {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  bottom: 7%;
-  text-align: center;
   color: #ffffff;
   font-size: 6rem;
   font-weight: 800;
+  text-align: center;
+  bottom: 7%;
 }
 @media (max-width: 350px) {
   .art .text3 {
@@ -601,8 +599,8 @@ video {
 }
 @media (min-width: 500px) {
   .art .text3 {
-    bottom: 3rem;
     font-size: 7rem;
+    bottom: 3rem;
   }
 }
 .art .fade1 {
@@ -696,28 +694,28 @@ video {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  top: 13rem;
   color: #f2c617;
   font-size: 5rem;
   z-index: -1;
+  top: 13rem;
 }
 .wrapper2 .text5 {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  top: 23rem;
   color: #eb472c;
   font-size: 5rem;
   z-index: -1;
+  top: 23rem;
 }
 .wrapper2 .text6 {
   position: absolute;
   font-family: "SF Display", sans-serif;
   font-weight: bold;
-  top: 33rem;
   color: #4e73b9;
   font-size: 5rem;
   z-index: 1;
+  top: 33rem;
 }
 .wrapper2 .fade4 {
   animation-name: fadetext4;
@@ -946,6 +944,6 @@ footer {
   width: 100%;
   text-align: center;
   color: #eb472c;
-  background-color: rgba(235, 71, 44, 0.2);
+  background-color: rgba(242, 198, 23, 0.2);
   font-size: 1.6rem;
 }

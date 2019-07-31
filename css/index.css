@@ -758,6 +758,11 @@ video {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 1000px) {
+  .wrapper2 {
+    width: 970px;
+  }
+}
 .wrapper2 .text4 {
   position: absolute;
   font-family: "SF Display", sans-serif;

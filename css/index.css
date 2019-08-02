@@ -1100,12 +1100,13 @@ video {
     margin-right: 2.4rem;
   }
 }
-.login {
+.login a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
-.login button {
+.login a button {
   background-color: #4e73b9;
   border: 2px solid #4e73b9;
   width: 80%;
@@ -1121,11 +1122,11 @@ video {
   transition: 0.3s ease-in-out;
 }
 @media (min-width: 500px) {
-  .login button {
+  .login a button {
     font-size: 2.4rem;
   }
 }
-.login button:hover {
+.login a button:hover {
   color: #4e73b9;
   background-color: rgba(78, 115, 185, 0.3);
 }

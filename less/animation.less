@@ -1,0 +1,211 @@
+.art {
+  position: relative;
+  width: 90%;
+  .flexbox-center();
+
+  .text1 {
+    .float-text();
+    color: @bermuda-blue; //@text-ltblue;
+    font-size: 2.4rem;
+    top: 5rem;
+    left: 2%;
+
+    @media @mobile-small {
+      font-size: 2rem;
+    }
+
+    @media @tablet-portrait {
+      font-size: 3rem;
+      top: 6rem;
+      left: -8%;
+    }
+
+    @media @tablet-landscape {
+      font-size: 3.6rem;
+      left: -2%;
+    }
+
+    @media @desktop {
+      left: 0%;
+    }
+  }
+
+  .text2 {
+    .float-text();
+    color: @bermuda-red; //@sc-brown;
+    font-size: 2.6rem;
+    top: 12rem;
+    right: -2%;
+
+    @media @mobile-small {
+      font-size: 2.2rem;
+    }
+
+    @media @tablet-portrait {
+      font-size: 3.2rem;
+      top: 10rem;
+      right: -10%;
+    }
+
+    @media @tablet-landscape {
+      font-size: 4rem;
+      right: -2%;
+    }
+
+    @media @desktop {
+      right: -5%;
+    }
+  }
+
+  .text3 {
+    .float-text();
+    color: @text-white;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    bottom: 7%;
+
+    @media @mobile-small {
+      font-size: 5rem;
+    }
+
+    @media @tablet-portrait {
+      font-size: 7rem;
+      bottom: 3rem;
+    }
+  }
+
+  .fade1 {
+    .fade(fadetext1, @anim1-time);
+  }
+
+  .fade2 {
+    .fade(fadetext2, @anim1-time);
+  }
+
+  .fade3 {
+    .fade(fadetext3, @anim1-time);
+  }
+
+  @-webkit-keyframes fadetext1 {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadetext1 {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes fadetext2 {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadetext2 {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes fadetext3 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    55% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadetext3 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    55% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .image {
+    max-width: 100%;
+
+    @media @tablet-portrait {
+      max-width: 372px;
+    }
+  }
+}

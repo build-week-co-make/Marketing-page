@@ -1,0 +1,22 @@
+.flexbox-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.float-text() {
+  position: absolute;
+  font-family: @main-font;
+  font-weight: bold;
+}
+
+.fade(@name, @anim-time) {
+  -webkit-animation-name: @name;
+  animation-name: @name;
+  -webkit-animation-duration: @anim-time;
+  animation-duration: @anim-time;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

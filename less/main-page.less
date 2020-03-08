@@ -1,0 +1,153 @@
+.wrapper {
+  .flexbox-center();
+  flex-direction: column;
+  margin-top: 10rem;
+
+  @media @tablet-portrait {
+    width: 80%;
+  }
+
+  @media @tablet-landscape {
+    width: 90%;
+  }
+
+  @media @desktop {
+    flex-direction: row;
+    width: 970px;
+  }
+
+  .questions {
+    width: 100%;
+    background-color: @bermuda-yellow-alpha; //@sc-ltblue;
+    border-top: 2px solid @bermuda-yellow; //@sc-blue;
+    border-bottom: 2px solid @bermuda-yellow; //@sc-blue;
+    .flexbox-center();
+    flex-direction: column;
+    padding: 2rem 4%;
+    margin-top: 2rem;
+
+    @media @tablet-portrait {
+      border: 2px solid @bermuda-yellow; //@sc-blue;
+      width: auto;
+    }
+
+    @media @desktop {
+      width: 60%;
+      margin-left: 6%;
+    }
+
+    h2 {
+      color: @text-gray;
+      padding-top: 0;
+    }
+
+    ul {
+      padding-top: 0;
+      padding-bottom: 2rem;
+
+      li {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      font-size: 2rem;
+      padding: 0;
+    }
+  }
+}
+
+.art2 {
+  margin-top: 5rem;
+
+  .image {
+    max-width: 100%;
+
+    @media @tablet-portrait {
+      max-width: 372px;
+    }
+  }
+}
+
+.content {
+  h2 {
+    background-color: @bermuda-red-alpha; //@bkgd-tan;
+    padding: 2rem 3%;
+  }
+
+  p {
+    padding: 2rem 4%;
+    font-size: 2rem;
+  }
+
+  ul {
+    list-style: disc outside;
+    padding: 2rem;
+    margin-left: 6%;
+  }
+
+  li {
+    font-size: 2rem;
+  }
+}
+
+.profiles {
+  @media @tablet-landscape {
+    .flexbox-center();
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team {
+    background-color: @bermuda-red-alpha; //@bkgd-tan;
+    width: 100%;
+    padding: 2rem 3%;
+  }
+
+  .profile {
+    padding: 2rem 4%;
+    border-bottom: 1px dashed @bermuda-blue; //@sc-brown;
+    .flexbox-center();
+    flex-direction: column;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    @media @tablet-portrait {
+      flex-direction: row;
+    }
+
+    img {
+      max-width: 70%;
+      border-radius: 2rem;
+      margin-bottom: 2rem;
+
+      @media @tablet-portrait {
+        max-width: 200px;
+        margin-bottom: 0;
+        margin-right: 2rem;
+      }
+    }
+
+    .contact-options {
+      .flexbox-center();
+      justify-content: space-evenly;
+      padding-top: 1rem;
+
+      @media @tablet-portrait {
+        justify-content: flex-start;
+      }
+
+      .fas,
+      .fab {
+        color: @icon-color;
+        padding: 1rem;
+
+        @media @tablet-portrait {
+          margin-right: 2.4rem;
+        }
+      }
+    }
+  }
+}
